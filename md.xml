@@ -1,0 +1,36 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<search ranking="adaptive" queryid="1" sessionid="1" querycount="2" count.recommendations="2" count="2">
+
+    
+    <!-- search results represent pages, recommended pages, or files -->
+    <result>
+        <id>1</id>
+        <uri>https://hunter.id</uri>
+        <uri.track>https://hunter.id</uri.track>
+        <rank>1</rank>
+        <title>hallo</title>
+        
+        <!-- if {type} = page: page is the location of content that best matches search terms based on the search algorithim -->
+        <!-- if {type} = recommended: page is the configured location that matches exact search terms -->
+        <!-- if {type} = file: page is the location of the file attachment that contains content that best matches search terms based on the search algorithim -->
+        <page>
+            <rating score="5" count="5"/>
+            <title>hallo</title>
+            <path>hallo</path>
+            <uri.ui>https://hunter.id</path>
+        </page>
+        <author>hallo</author>
+        
+        <!-- if {type} = page / recommended: {preview} is the provided page summary or extracted page summary from page content -->
+        <!-- if {type} = file: {preview} is extracted from file attachment content -->
+        <preview>preview</preview>
+        <content>preview</content>
+        <date.modified>date.modified</date.modified>   
+        <type>page</type>
+        <mime>mime</mime>
+        <tag>tag</tag>
+        
+    </result>
+
+</search>
